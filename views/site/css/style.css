@@ -1,0 +1,325 @@
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.screen .div {
+    background-color: #ffffff;
+    width: 1920px;
+    height: 838px;
+    position: relative;
+}
+
+.screen .overlap {
+    width: 217px;
+    height: 838px;
+    top: 0;
+    left: 0;
+}
+
+.iv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 1920px;
+}
+
+.main {
+    width: 100%;
+}
+
+.screen .sidebar {
+    flex-direction: column;
+    height: 970px;
+    background-color: #f1f1f1;
+    display: inline-flex;
+    gap: 12px;
+}
+
+.screen .frame {
+    align-items: center;
+    gap: 9px;
+    padding: 32px;
+    flex: 0 0 auto;
+    display: inline-flex;
+    position: relative;
+}
+
+.screen .unsplash {
+    position: relative;
+    width: 39px;
+    height: 39px;
+    object-fit: cover;
+}
+
+.screen .company {
+    position: relative;
+    width: 90px;
+    height: 23px;
+    font-family: "Roboto", Helvetica, serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: -0.20px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.screen .frame-2 {
+    flex-direction: column;
+    height: 912px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen .div-2 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 32px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.screen .sidebar-tabs {
+    align-items: flex-start;
+    padding: 12px 15px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #6B6B6B;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 12px;
+}
+
+.screen .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.screen .text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--dropdown-active-menu-item-font-family), serif;
+    font-weight: var(--dropdown-active-menu-item-font-weight);
+    color: var(--iconwhite);
+    font-size: var(--dropdown-active-menu-item-font-size);
+    letter-spacing: var(--dropdown-active-menu-item-letter-spacing);
+    line-height: var(--dropdown-active-menu-item-line-height);
+    white-space: nowrap;
+    font-style: var(--dropdown-active-menu-item-font-style);
+}
+
+.screen .sidebar-tabs-2 {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+    display: inline-flex;
+    gap: 12px;
+}
+
+.screen .sidebar-tabs-3 {
+    align-items: center;
+    padding: 12px 15px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 12px;
+}
+
+.screen .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: var(--dropdown-menu-item-font-family);
+    font-weight: var(--dropdown-menu-item-font-weight);
+    color: var(--fontdeafault-b);
+    font-size: var(--dropdown-menu-item-font-size);
+    letter-spacing: var(--dropdown-menu-item-letter-spacing);
+    line-height: var(--dropdown-menu-item-line-height);
+    white-space: nowrap;
+    font-style: var(--dropdown-menu-item-font-style);
+}
+
+.screen .sidebar-tabs-4 {
+    align-items: center;
+    padding: 12px 15px;
+    position: absolute;
+    top: 288px;
+    left: 32px;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 12px;
+}
+
+.screen .sidebar-tabs-5 {
+    align-items: center;
+    padding: 12px 15px;
+    position: absolute;
+    top: 338px;
+    left: 32px;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 12px;
+}
+
+.screen .avatar-name {
+    display: inline-flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.screen .workspace-avatar {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-color: var(--defaultbasebrandlight);
+    border-radius: 70px;
+}
+
+.screen .ic-photo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50px;
+    left: 50px;
+}
+
+.screen .name {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.information {
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.info-main {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.info-other {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.screen .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--base-worspace-name-font-family);
+    font-weight: var(--base-worspace-name-font-weight);
+    color: #000000;
+    font-size: var(--base-worspace-name-font-size);
+    letter-spacing: var(--base-worspace-name-letter-spacing);
+    line-height: var(--base-worspace-name-line-height);
+    white-space: nowrap;
+    font-style: var(--base-worspace-name-font-style);
+}
+
+.screen .icon-edit {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.screen .icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    left: 8px;
+}
+
+.screen .text-wrapper-3 {
+    width: 403px;
+    font-family: "Roboto", Helvetica, serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0.10px;
+    line-height: 42px;
+}
+
+.screen .text-wrapper-4 {
+    width: 357px;
+    font-family: "Roboto", Helvetica, serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.10px;
+    line-height: 26px;
+}
+
+.screen .element {
+    width: 674px;
+    font-family: "Roboto", Helvetica, serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.10px;
+    line-height: 26px;
+}
+
+.screen .card {
+    margin: auto;
+    padding: 100px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    width: 1360px;
+    justify-content: space-between;
+}
+
+.view {
+    height: 286px;
+}
+
+.screen .text-wrapper-5 {
+    font-family: "Roboto", Helvetica, serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.10px;
+    line-height: 26px;
+    white-space: nowrap;
+}
+
+.screen .overlap-group {
+    width: 202px;
+    display: flex;
+    justify-content: center;
+    padding: 72px;
+    height: 250px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+}
+
+
+.screen .text-wrapper-6 {
+    font-family: "Roboto", Helvetica, serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.10px;
+    line-height: 83.2px;
+    white-space: nowrap;
+}

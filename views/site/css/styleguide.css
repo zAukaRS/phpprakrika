@@ -1,0 +1,27 @@
+:root {
+    --icondefault-w: rgba(255, 255, 255, 1);
+    --iconwhite: rgba(255, 255, 255, 1);
+    --icondefault-b: rgba(52, 52, 52, 1);
+    --fontdeafault-b: rgba(52, 52, 52, 1);
+    --fontdefault-w: rgba(255, 255, 255, 1);
+    --defaultbasebrandlight: rgba(237, 246, 254, 1);
+    --basebrand-secondary: rgba(245, 244, 255, 1);
+    --dropdown-active-menu-item-font-family: "Roboto", Helvetica;
+    --dropdown-active-menu-item-font-weight: 700;
+    --dropdown-active-menu-item-font-size: 16px;
+    --dropdown-active-menu-item-letter-spacing: -0.20000000298023224px;
+    --dropdown-active-menu-item-line-height: 24px;
+    --dropdown-active-menu-item-font-style: normal;
+    --dropdown-menu-item-font-family: "Roboto", Helvetica;
+    --dropdown-menu-item-font-weight: 400;
+    --dropdown-menu-item-font-size: 16px;
+    --dropdown-menu-item-letter-spacing: 0px;
+    --dropdown-menu-item-line-height: normal;
+    --dropdown-menu-item-font-style: normal;
+    --base-worspace-name-font-family: "Roboto", Helvetica;
+    --base-worspace-name-font-weight: 700;
+    --base-worspace-name-font-size: 42px;
+    --base-worspace-name-letter-spacing: 0.10000000149011612px;
+    --base-worspace-name-line-height: 130%;
+    --base-worspace-name-font-style: normal;
+}
